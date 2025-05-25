@@ -3,7 +3,7 @@
     .chat
         width: 550px
         height: 350px
-        background-color: #dee2f2
+        background-color: #e4ecff
         border-radius: 20px
         padding: 20px
         .message
@@ -18,11 +18,11 @@
             .end
                 text-align: end
             .line
-                background-color: #657ead
+                background-color: #819fd7
                 border-radius: 20px
                 padding: 10px
                 display: inline-block
-                margin-bottom: 5px
+                margin-bottom: 8px
                 h3
                     color: #ffff
         .text
@@ -33,20 +33,29 @@
             .sent
                 padding: 10px 23px
                 border-radius: 20px
-                background-color:rgb(70, 95, 143)
+                background-color: #90a1d5
                 margin-left: 5px
                 h3
                     color: #ffff
     @media screen and ( max-width: 991px )
-        .mt
+        .chat
             margin-top: 20px
+            width: 400px
+            height: 300px
+            .message
+                width: 300px
+                height: 200px
+                .line
+                    padding: 8px
+                    h3
+                        font-size: 12px
+
     @media screen and ( max-width: 391px )
         .chat
             width: 365px
-            height: 315px
+            height: 280px
+            margin-top: 20px
             .message
                 width: 315px
-                height: 215px
+                height: 180px
                 margin-left: 7px
-        .mt
-            margin-top: 20px
