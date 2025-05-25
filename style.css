@@ -59,32 +59,60 @@ a:hover {
 #whatsapp .chat .text .sent h3 {
   color: white;
 }
+@media screen and (max-width: 1200px) {
+  #whatsapp .chat {
+    width: 470px;
+    height: 350px;
+  }
+  #whatsapp .chat .message {
+    width: 430px;
+    height: 250px;
+  }
+}
 @media screen and (max-width: 991px) {
   #whatsapp .chat {
     margin-top: 20px;
     width: 400px;
-    height: 300px;
+    height: 290px;
+    padding: 20px 20px 20px 20px;
   }
   #whatsapp .chat .message {
     width: 300px;
     height: 200px;
+    margin-bottom: 15px;
+  }
+  #whatsapp .chat .message .line {
+    padding: 8px;
+  }
+  #whatsapp .chat .message .line h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #whatsapp .chat {
+    width: 370px;
+    height: 290px;
+  }
+  #whatsapp .chat .message {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 391px) {
+  #whatsapp .chat {
+    width: 365px;
+    height: 270px;
+    margin-top: 20px;
+    padding-left: 25px;
+  }
+  #whatsapp .chat .message {
+    width: 305px;
+    height: 190px;
+    margin-bottom: 10px;
   }
   #whatsapp .chat .message .line {
     padding: 8px;
   }
   #whatsapp .chat .message .line h3 {
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 391px) {
-  #whatsapp .chat {
-    width: 365px;
-    height: 280px;
-    margin-top: 20px;
-  }
-  #whatsapp .chat .message {
-    width: 315px;
-    height: 180px;
-    margin-left: 7px;
   }
 }/*# sourceMappingURL=style.css.map */
